@@ -1,0 +1,25 @@
+# Model weights, auto-downloaded by ultralytics on first run.
+*.pt
+
+# Python bytecode caches.
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pipeline outputs and run logs.
+events/logs/
+events/**/*.json
+runs/
+
+# Video media. Footage lives on Zenodo (synthetic) or on-request Drive (real).
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# OS and editor noise.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

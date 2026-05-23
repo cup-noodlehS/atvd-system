@@ -1,0 +1,46 @@
+fps_override: null
+homography:
+  image_points:
+  - - 116
+    - 426
+  - - 302
+    - 416
+  - - 269
+    - 277
+  - - 141
+    - 282
+  world_points:
+  - - 0
+    - 0
+  - - 3.5
+    - 0
+  - - 3.5
+    - 10
+  - - 0
+    - 10
+restricted_lane_polygon:
+- - 108
+  - 477
+- - 193
+  - 4
+- - 211
+  - 2
+- - 305
+  - 479
+violation:
+  enabled:
+  - RESTRICTED_LANE
+  dwell_frames: 10
+  allowed_classes:
+  - truck
+  - bus
+speed:
+  smoothing: ema
+  ema_alpha: 0.2
+  min_pixels_per_sec: 3
+  report_every_n_frames: 3
+overlay:
+  draw_regions: true
+  draw_speed: true
+  draw_track_ids: true
+  show_live_preview: true
