@@ -2,9 +2,9 @@
 
 Trajectory-based traffic violation detection from roadside video. Violations are inferred from tracked vehicle motion against calibrated road geometry, not per-frame appearance classification.
 
-This is the code release accompanying the thesis "Automated Traffic Violation Detection from Roadside Video" by Sheldon Arthur M. Sagrado, University of the Philippines Cebu, 2026.
+This is the public code release accompanying the special project "Automated Traffic Violation Event Detection for Fixed-Camera Roadside Video Using Multi-Object Tracking and Calibrated Geometric Rules" by Sheldon Arthur M. Sagrado, University of the Philippines Cebu, June 2026.
 
-Paper: `<paper URL placeholder>` (will be filled in upon publication).
+Paper/manuscript: companion special project manuscript, June 2026.
 
 ## Architecture
 
@@ -73,25 +73,35 @@ python run_demo.py
 
 See `QUICKSTART.md` for a more detailed walkthrough and `TOOLS.md` for the supporting tools.
 
+## Reproducibility scope
+
+This repository contains the runnable ATVD pipeline, calibration tools, a
+representative test site, and supporting evaluation utilities. The synthetic
+CARLA dataset and its rollup are archived separately on Zenodo. The complete
+experiment workspace used to generate every paper table also contains private
+real-footage configurations, review CSVs, and intermediate artifacts that are
+not included here because they are tied to restricted real-road recordings.
+
 ## Datasets
 
 The synthetic CARLA dataset (175 clips across seven scenarios and three variation packs) is archived on Zenodo:
 
-- DOI: `<Zenodo DOI placeholder>`
+- DOI: [`10.5281/zenodo.20357436`](https://doi.org/10.5281/zenodo.20357436)
 
 The six researcher-captured real-footage clips across five sites (`1-no-stopping`, `2-u-turn`, `3-motor-lane`, `4-speeding`, and the two counterflow recordings) are retained on a private cloud location and are available on request to the author, subject to a confidentiality agreement aligned with the Data Privacy Act of 2012 (RA 10173).
 
-- Contact: `<contact email placeholder>`
+- Contact: `sheldonarthursagrado@gmail.com`
 
 ## Citation
 
 ```bibtex
-@thesis{sagrado2026atvd,
+@misc{sagrado2026atvd,
   author  = {Sheldon Arthur M. Sagrado},
-  title   = {Automated Traffic Violation Detection from Roadside Video},
-  school  = {University of the Philippines Cebu},
+  title   = {Automated Traffic Violation Event Detection for Fixed-Camera Roadside Video Using Multi-Object Tracking and Calibrated Geometric Rules},
+  howpublished = {Special Project, University of the Philippines Cebu},
   year    = {2026},
-  type    = {Undergraduate Thesis}
+  month   = {June},
+  note    = {Code release}
 }
 ```
 
