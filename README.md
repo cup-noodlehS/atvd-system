@@ -2,9 +2,9 @@
 
 Trajectory-based traffic violation detection from roadside video. Violations are inferred from tracked vehicle motion against calibrated road geometry, not per-frame appearance classification.
 
-This is the public code release accompanying the special project "Automated Traffic Violation Event Detection for Fixed-Camera Roadside Video Using Multi-Object Tracking and Calibrated Geometric Rules" by Sheldon Arthur M. Sagrado, University of the Philippines Cebu, June 2026.
+This is the public code release accompanying the special problem "Automated Traffic Violation Event Detection for Fixed-Camera Roadside Video Using Multi-Object Tracking and Calibrated Geometric Rules" by Sheldon Arthur M. Sagrado, University of the Philippines Cebu, June 2026.
 
-Paper/manuscript: companion special project manuscript, June 2026.
+Paper/manuscript: companion special problem manuscript, June 2026.
 
 ## Architecture
 
@@ -98,7 +98,7 @@ The six researcher-captured real-footage clips across five sites (`1-no-stopping
 @misc{sagrado2026atvd,
   author  = {Sheldon Arthur M. Sagrado},
   title   = {Automated Traffic Violation Event Detection for Fixed-Camera Roadside Video Using Multi-Object Tracking and Calibrated Geometric Rules},
-  howpublished = {Special Project, University of the Philippines Cebu},
+  howpublished = {Special Problem, University of the Philippines Cebu},
   year    = {2026},
   month   = {June},
   note    = {Code release}
